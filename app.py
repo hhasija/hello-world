@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    message = "Prachi wants a proof!"
+    message = "Rishwant wants a demo on Architecture!"
 
     """Get Cloud Run environment variables."""
     service = os.environ.get('K_SERVICE', 'Unknown service')
